@@ -17,8 +17,6 @@ export class ToastService implements I_ToastService {
     }
 
     public showSuccess(message: string) {
-        console.log('here');
-
         toast.success(message, this.getConfiguration());
     }
 

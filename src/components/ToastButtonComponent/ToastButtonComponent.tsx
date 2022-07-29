@@ -7,7 +7,6 @@ const toast = new ToastService();
 export const ToastButtonComponent = (): React.ReactElement => {
     const testToast = () => {
         toast.showSuccess('It works !');
-        console.log('passed here');
     };
 
     return (
